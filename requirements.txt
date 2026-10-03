@@ -1,0 +1,22 @@
+# Dependencies inferred from the supplied Colab imports.
+# This is not a historical environment lock; add original versions if available.
+numpy
+pandas
+scipy
+scikit-learn
+imbalanced-learn
+xgboost
+torch
+torchvision
+Pillow
+opencv-python
+pycocotools
+segment-anything
+flirimageextractor
+matplotlib
+seaborn
+tqdm
+joblib
+openpyxl
+# Google Colab integration is supplied by Colab.
+# FLIR extraction also needs an available ExifTool executable.

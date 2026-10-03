@@ -1,0 +1,5 @@
+config,model,pca,smote,candidate_index,parameters,validation_pr_auc_mean,validation_pr_auc_std,validation_f1_mean,validation_f1_std
+5_RgbDet_ThrPred_Meta,xgboost,pca_on,smote_off,6,"{""colsample_bytree"": 1.0, ""max_depth"": 4, ""min_child_weight"": 1, ""subsample"": 1.0}",0.11277544387496388,0.052297286956077375,0.2364831449821308,0.07562339103678282
+4_RgbPred_ThrPred_Meta,logistic_regression,pca_on,smote_on,1,"{""C"": 0.01}",0.13607886034904312,0.08469574322659892,0.22492386923421406,0.0972318807786723
+4_RgbPred_ThrPred_Meta,random_forest,pca_off,smote_off,15,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 5}",0.14193311395029995,0.10194928943854994,0.2236815815763184,0.10513203967050416
+3_RgbPred_Meta,svm,pca_on,smote_off,4,"{""C"": 1.0, ""gamma"": ""scale""}",0.11941553779639916,0.10629868460436963,0.21978498255093998,0.10101301110844868
